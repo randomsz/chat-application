@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/7a5b10a1a2.js" crossorigin="anonymous"></script>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script/clientScript.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MY iChate</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to iChat</h1>
+      <i class="fa-solid fa-users"></i>
+      <div class="chatbox"></div>
+      <div class="msg">
+        <form id="containerForm" action="">
+          <textarea name="message" id="message" cols="30" rows="2" placeholder="type your msg here"></textarea>
+          <!-- <input id="message" type="text" name="message" placeholder="type your msg here" /> -->
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
